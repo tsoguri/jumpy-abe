@@ -14,27 +14,27 @@ We developed an interactive game called Jumpy Abe, inspired by the [Super Sexy S
 Objective: Beat the highest score, recorded in the top right corner of the screen 
 
 ### Player movements that yield extra points 
-Running on top of a gold platform
-Hitting a gold platform from below
+- Running on top of a gold platform
+- Hitting a gold platform from below
 
 ### Player movements that will not result in anything bad 
-Running on a gold platform or a safe ‘hazard’ platform 
-Hitting the bottom of a gold platform or safe ‘hazard’ platform
-Running on the ground 
+- Running on a gold platform or a safe ‘hazard’ platform 
+- Hitting the bottom of a gold platform or safe ‘hazard’ platform
+- Running on the ground 
 
 ### Player movements that will result in the player colliding with the platform and falling to the ground 
-Hitting the side of a gold platform or safe ‘hazard’ platform
-Hitting the corners of a gold platform or safe ‘hazard’ platform
-Hitting any part of the green ‘vat’ or the red laser beam, from the side, top, or below
+- Hitting the side of a gold platform or safe ‘hazard’ platform
+- Hitting the corners of a gold platform or safe ‘hazard’ platform
+- Hitting any part of the green ‘vat’ or the red laser beam, from the side, top, or below
 
 ### Platform Obstacles
-Platform widths and heights are generated randomly throughout the game and are updated randomly as the game progresses.
-Platforms are cycled as they reach the left-most side of the game screen, and are moved to the right-most side of the game screen, with randomly updated textures, qualities (safe, boost, dangerous), widths and heights. 
-Platform obstacles will increase in their speed and come faster towards the player as the game progresses.
+- Platform widths and heights are generated randomly throughout the game and are updated randomly as the game progresses.
+- Platforms are cycled as they reach the left-most side of the game screen, and are moved to the right-most side of the game screen, with randomly updated textures, qualities (safe, boost, dangerous), widths and heights. 
+- Platform obstacles will increase in their speed and come faster towards the player as the game progresses.
 
 ### Music/Sound Effects
-Music from the Super Sexy Science video will be played as the player runs across the screen.
-Once the game is over, the music will stop.
-When the game restarts, the music will start off wherever it was paused at the end of the last run.
-When the player hits a gold platform or runs on a gold platform, “coin” sound effect will play. 
-When the player dies, a “death” sound effect will play.
+- Music from the Super Sexy Science video will be played as the player runs across the screen.
+- Once the game is over, the music will stop.
+- When the game restarts, the music will start off wherever it was paused at the end of the last run.
+- When the player hits a gold platform or runs on a gold platform, “coin” sound effect will play. 
+- When the player dies, a “death” sound effect will play.
