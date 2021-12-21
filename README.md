@@ -1,5 +1,5 @@
 # jumpy-abe
-By Sophia Oguri (tso24@cornell.edu), Luke Kratsios (lak245Cornell.edu), Isha Chirimar (idc26@cornell.edu), Jacob Hocking (jah643@cornell.edu) 
+By Sophia Oguri (tso24@cornell.edu), Luke Kratsios (lak245@cornell.edu), Isha Chirimar (idc26@cornell.edu), Jacob Hocking (jah643@cornell.edu) 
 
 We developed an interactive game called Jumpy Abe, inspired by the [Super Sexy Science music video](https://www.youtube.com/watch?v=sy-kueG6KlA) by our graphics professor, Abe Davis. The goal of this game is to jump over and run on as many platforms as possible, while successfully avoiding the dangerous obstacles and not colliding with any of the platforms. We were inspired by [this](https://github.com/hehuilong/FlappyCube) Flappy Cube game implemented in Three.js, which structured our approach for this implementation. We implemented this game using Three.js/WebGL. It is a 2.5D game, with a WebGLRenderer, scene, rendered orthographic 3D camera, directional light, and meshes. 
 
