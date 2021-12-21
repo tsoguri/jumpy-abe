@@ -107,7 +107,7 @@ var abeMaterials =
 var currentPose = 0
 
 //Audio
-var music = new Audio('Audio/SuperSexy.wav');
+var music = new Audio('Audio/SuperSexy.mp3');
 var coinSound = new Audio('Audio/Coin.wav')
 var deathSound = new Audio('Audio/Death_Noise.mp3')
 var deathSound2 = new Audio('Audio/i_am_death.wav')
@@ -629,7 +629,7 @@ function moveAbe() {
 //----------------------- ABE COLLIDED W A PLATFORM ----------------------------
 function gameOver() {
   collided = true;
-  var deathsoundtrack = [deathSound,deathSound2,deathSound3];
+  var deathsoundtrack = [deathSound, deathSound2, deathSound3];
   death = deathsoundtrack[Math.floor(Math.random() * deathsoundtrack.length)]
   death.play();
 
